@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project is a C# Console Application developed as part of the ServerCamp OOP Assignment. The system allows users to manage bus ticket reservations, schedules, invoices, and payments while demonstrating Object-Oriented Programming (OOP) concepts and SOLID principles.
+This project is a C# Console Application developed as part of the **ServerCamp OOP Assignment**. The system allows users to manage bus ticket reservations, schedules, invoices, and payments while demonstrating Object-Oriented Programming (OOP) concepts and SOLID design principles.
+
+---
 
 ## Features
 
@@ -39,6 +41,8 @@ This project is a C# Console Application developed as part of the ServerCamp OOP
 
 * Display User Tickets
 
+---
+
 ## OOP Concepts Used
 
 * Encapsulation
@@ -46,23 +50,31 @@ This project is a C# Console Application developed as part of the ServerCamp OOP
 * Abstraction
 * Polymorphism
 
+---
+
 ## SOLID Principles Applied
 
 * Single Responsibility Principle (SRP)
 * Open/Closed Principle (OCP)
 * Dependency Injection through Service Classes
 
+---
+
 ## Technologies Used
 
 * C#
 * .NET Console Application
 * Object-Oriented Programming (OOP)
+* Visual Studio Code
+
+---
 
 ## Project Structure
 
-BusTicketBookingSystem/
+```text
+BusTicketBookingSystem
 │
-├── Models/
+├── Models
 │   ├── User.cs
 │   ├── Bus.cs
 │   ├── BusinessBus.cs
@@ -71,29 +83,70 @@ BusTicketBookingSystem/
 │   ├── Ticket.cs
 │   └── Invoice.cs
 │
-├── Services/
+├── Services
 │   ├── UserService.cs
 │   ├── BusService.cs
 │   ├── ScheduleService.cs
 │   ├── BookingService.cs
 │   └── PaymentService.cs
 │
-└── Program.cs
+├── Program.cs
+└── BusTicketBookingSystem.csproj
+```
+
+---
 
 ## How to Run
 
-1. Clone the repository
-2. Open the project in Visual Studio Code
-3. Run the following command:
+### Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/BusTicketBookingSystem.git
+```
+
+### Navigate to Project Folder
+
+```bash
+cd BusTicketBookingSystem
+```
+
+### Run Application
 
 ```bash
 dotnet run
 ```
 
+---
+
+## Available Operations
+
+1. Create User
+2. Display All Users
+3. Create Bus
+4. Display All Buses
+5. Create Schedule
+6. Display All Schedules
+7. Display Schedule Details
+8. Book Ticket
+9. Display User Invoices
+10. Process Invoice Payment
+11. Display User Tickets
+12. Exit
+
+---
+
 ## Assignment Information
 
-Course: ServerCamp OOP Assignment 01
+**Course:** ServerCamp OOP Assignment 01
 
-Project: Bus Ticket Booking & Billing System
+**Project:** Bus Ticket Booking & Billing System
 
-Language: C#
+**Language:** C#
+
+**Application Type:** Console Application
+
+---
+
+## Author
+
+**Md.Mahathir Imam**
